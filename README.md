@@ -65,3 +65,6 @@ bot to make custom http requests and database queries, using external client or 
   ]
 }
 </pre>
+
+<h3>config</h3>
+in current version not ready yet
