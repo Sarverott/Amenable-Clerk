@@ -2,7 +2,7 @@
 bot to make custom http requests and database queries, using external client or prepared manualy url (no interface)
 <div style="margin:50px">
 <h1>usage</h1>
-<p>host.srv/?key=qwerty123456&command={"JSON":"data"}</p>
+<p>host.srv/?key=qwerty123456&command={JSONdata}</p>
 <p style="word-wrap: break-word;">up.loc/?key=qwerty123456&dbact=%7B%22host%22%3A%22host.address%22%2C%22database%22%3A%22superDB%22%2C%22user%22%3A%22root%22%2C%22password%22%3A%22toor%22%2C%22queries%22%3A%5B%22SELECT+1%22%2C%22INSERT+INTO+table+%28field%29+VALUES+%28%22values%22%29%22%5D%7D</p>
 <h3>command list</h3>
 <ul>
@@ -13,7 +13,7 @@ bot to make custom http requests and database queries, using external client or 
   <h1> Examples of usage</h1>
 
 # proxy
-'data' key content:
+'JSONdata' key content:
 <pre>
 {
   "url":"host.address",
@@ -52,7 +52,7 @@ bot to make custom http requests and database queries, using external client or 
 }
 </pre>
 # dbact
-'data' key content:
+'JSONdata' key content:
 <pre>
 {
   "host":"host.address",
