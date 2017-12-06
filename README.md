@@ -3,7 +3,7 @@ bot to make custom http requests and database queries, using external client or 
 <div style="margin:50px">
 <h1>usage</h1>
 <p>host.srv/?key=qwerty123456&command={JSONdata}</p>
-<p style="word-wrap: break-word;">up.loc/?key=qwerty123456&dbact=%7B%22host%22%3A%22host.address%22%2C%22database%22%3A%22superDB%22%2C%22user%22%3A%22root%22%2C%22password%22%3A%22toor%22%2C%22queries%22%3A%5B%22SELECT+1%22%2C%22INSERT+INTO+table+%28field%29+VALUES+%28%22values%22%29%22%5D%7D</p>
+<p style="word-wrap: break-word;">server.xyz/?key=qwerty123456&dbact=%7B%22host%22%3A%22host.address%22%2C%22database%22%3A%22superDB%22%2C%22user%22%3A%22root%22%2C%22password%22%3A%22toor%22%2C%22queries%22%3A%5B%22SELECT+1%22%2C%22INSERT+INTO+table+%28field%29+VALUES+%28%22values%22%29%22%5D%7D</p>
 <h3>command list</h3>
 <ul>
   <li><b>proxy</b></li>
