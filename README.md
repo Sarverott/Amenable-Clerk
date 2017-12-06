@@ -13,6 +13,7 @@ bot to make custom http requests and database queries, using external client or 
   <h1> Examples of usage</h1>
 
 # proxy
+<pre>
 {
   "url":"host.address",
   "path":"/foo/bar/",
@@ -48,7 +49,9 @@ bot to make custom http requests and database queries, using external client or 
   "follow":false,
   "ssl":false
 }
+</pre>
 # dbact
+<pre>
 {
   "host":"host.address",
   "database":"superDB",
@@ -59,3 +62,4 @@ bot to make custom http requests and database queries, using external client or 
     "INSERT INTO table (field) VALUES ('values')"
   ]
 }
+</pre>
