@@ -13,6 +13,7 @@ bot to make custom http requests and database queries, using external client or 
   <h1> Examples of usage</h1>
 
 # proxy
+'data' key content:
 <pre>
 {
   "url":"host.address",
@@ -51,6 +52,7 @@ bot to make custom http requests and database queries, using external client or 
 }
 </pre>
 # dbact
+'data' key content:
 <pre>
 {
   "host":"host.address",
