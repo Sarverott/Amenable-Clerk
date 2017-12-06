@@ -12,7 +12,7 @@ bot to make custom http requests and database queries, using external client or 
 </ul>
   <h1> Examples of usage</h1>
 
-# proxy
+<h3>proxy</h3>
 'JSONdata' key content:
 <pre>
 {
@@ -51,7 +51,7 @@ bot to make custom http requests and database queries, using external client or 
   "ssl":false
 }
 </pre>
-# dbact
+<h3>dbact</h3>
 'JSONdata' key content:
 <pre>
 {
