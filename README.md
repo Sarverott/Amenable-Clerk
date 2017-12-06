@@ -1,17 +1,16 @@
-# clerkPHP
+<h1 style="font-size:72px;text-align:center">clerkPHP v1.0.0</h1>
 bot to make custom http requests and database queries, using external client or prepared manualy url (no interface)
-<h1 style="font-size:72px;text-align:center">Amenable Clerk v<?php echo $ver; ?></h1>
 <div style="margin:50px">
 <h1>usage</h1>
 <p>host.srv/?key=qwerty123456&command={"JSON":"data"}</p>
-<p style="word-wrap: break-word;"><?php echo $_SERVER['SERVER_NAME'].'/?'.urlencode($main_key['alias']).'='.urlencode($main_key['content']).'&'.urlencode($key['dbact']).'='.urlencode('{"host":"host.address","database":"superDB","user":"root","password":"toor","queries":["SELECT 1","INSERT INTO table (field) VALUES ("values")"]}'); ?></p>
+<p style="word-wrap: break-word;">up.loc/?key=qwerty123456&dbact=%7B%22host%22%3A%22host.address%22%2C%22database%22%3A%22superDB%22%2C%22user%22%3A%22root%22%2C%22password%22%3A%22toor%22%2C%22queries%22%3A%5B%22SELECT+1%22%2C%22INSERT+INTO+table+%28field%29+VALUES+%28%22values%22%29%22%5D%7D</p>
 <h3>command list</h3>
 <ul>
-  <li><b>proxy</b> - <?php echo $key['proxy']; ?></li>
-  <li><b>dbact</b> - <?php echo $key['dbact']; ?></li>
-  <li><b>config</b> (in plans) - <?php echo $key['config']; ?></li>
+  <li><b>proxy</b></li>
+  <li><b>dbact</b></li>
+  <li><b>config</b> (in plans)</li>
 </ul>
-# Examples of usage
+  <h1> Examples of usage</h1>
 
 # proxy
 {
